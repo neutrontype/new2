@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title2 desc2">
+  <title id="title2">Доктор Иван Кузнецов</title>
+  <desc id="desc2">Стиллизованный портрет в оттенках бирюзы и синего.</desc>
+  <defs>
+    <linearGradient id="grad2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b6bb8"/>
+      <stop offset="100%" stop-color="#1fc7c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#grad2)" rx="48"/>
+  <circle cx="320" cy="210" r="110" fill="rgba(255,255,255,0.85)"/>
+  <rect x="170" y="320" width="300" height="220" rx="56" fill="rgba(255,255,255,0.85)"/>
+  <path d="M320 350c-70 0-125 40-140 100 38 40 90 64 140 64s102-24 140-64c-15-60-70-100-140-100z" fill="#f2f9ff" opacity="0.85"/>
+</svg>
