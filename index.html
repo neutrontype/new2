@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Современная клиника здоровья — диагностика, лечение, профилактика.">
+    <title>Клиника "Здоровье"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+    <header class="topbar">
+        <div class="container topbar__content">
+            <div class="topbar__contacts">
+                <a href="tel:+74951234567" aria-label="Позвонить в клинику">+7 (495) 123-45-67</a>
+                <span>г. Москва, ул. Здоровья, 10</span>
+                <a href="mailto:hello@clinic.ru" aria-label="Написать на электронную почту">hello@clinic.ru</a>
+            </div>
+            <div class="topbar__time">
+                <span>Работаем ежедневно: 08:00 — 22:00</span>
+            </div>
+        </div>
+    </header>
+
+    <header class="header" id="header">
+        <div class="container header__content">
+            <a class="header__logo" href="#hero" aria-label="На главную">
+                <span class="header__logo-icon" aria-hidden="true">✚</span>
+                <span class="header__logo-text">Клиника «Здоровье»</span>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">Меню</button>
+                <ul class="nav__list" id="mainNav">
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#doctors">Врачи</a></li>
+                    <li><a href="#technology">Технологии</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#appointment">Записаться</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="header__cta" href="#appointment">Записаться</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="hero">
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <h1>Ваше здоровье — наша главная ценность</h1>
+                    <p>Мы объединяем команду опытных врачей, современное оборудование и индивидуальный подход, чтобы вы чувствовали себя уверенно на каждом этапе лечения.</p>
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="#appointment">Записаться на приём</a>
+                        <a class="button button--ghost" href="#services">Узнать об услугах</a>
+                    </div>
+                    <ul class="hero__advantages">
+                        <li>
+                            <span class="hero__adv-number">15+</span>
+                            <span>профильных направлений</span>
+                        </li>
+                        <li>
+                            <span class="hero__adv-number">120</span>
+                            <span>сертифицированных врачей</span>
+                        </li>
+                        <li>
+                            <span class="hero__adv-number">24/7</span>
+                            <span>дежурная служба помощи</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero__card" role="presentation" aria-hidden="true">
+                    <div class="hero__card-inner">
+                        <h2>Центр превентивной медицины</h2>
+                        <p>Комплексная диагностика организма за один день. Результаты в день обращения.</p>
+                        <ul>
+                            <li>Check-up программы для взрослых и детей</li>
+                            <li>Генетические исследования</li>
+                            <li>Составление персонального плана здоровья</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--light" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2>Наши направления</h2>
+                    <p>Предоставляем полный спектр медицинских услуг от консультаций до сложных хирургических вмешательств.</p>
+                </div>
+                <div class="grid grid--services">
+                    <article class="card">
+                        <h3>Терапия и диагностика</h3>
+                        <p>Современные методы диагностики, анализы и консультации врачей-терапевтов для поддержания вашего здоровья.</p>
+                        <ul>
+                            <li>Расширенная лаборатория</li>
+                            <li>УЗИ и МРТ экспертного уровня</li>
+                            <li>Программы диспансеризации</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Женское здоровье</h3>
+                        <p>Комплексный подход к женскому здоровью: от подготовки к беременности до наблюдения в период менопаузы.</p>
+                        <ul>
+                            <li>Ведение беременности</li>
+                            <li>Лечение бесплодия</li>
+                            <li>Гинекологическая хирургия</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Семейная стоматология</h3>
+                        <p>Безболезненное лечение и эстетическая реставрация зубов для всей семьи с применением цифровых технологий.</p>
+                        <ul>
+                            <li>3D-моделирование улыбки</li>
+                            <li>Имплантация и ортодонтия</li>
+                            <li>Детская стоматология</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Реабилитация и спорт</h3>
+                        <p>Индивидуальные программы восстановления после травм и операций, авторские методики физиотерапии.</p>
+                        <ul>
+                            <li>Спортивная медицина</li>
+                            <li>ЛФК и массаж</li>
+                            <li>Восстановление после COVID-19</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="doctors">
+            <div class="container">
+                <div class="section__header">
+                    <h2>Команда экспертов</h2>
+                    <p>Врачи высшей категории с многолетним опытом работы в ведущих клиниках России и Европы.</p>
+                </div>
+                <div class="grid grid--doctors">
+                    <article class="profile">
+                        <img src="assets/images/doctor-1.svg" alt="Портрет доктора Анны Смирновой" loading="lazy">
+                        <h3>Анна Смирнова</h3>
+                        <p class="profile__role">Главный врач, кардиолог</p>
+                        <p>20 лет опыта. Специалист по профилактике сердечно-сосудистых заболеваний.</p>
+                    </article>
+                    <article class="profile">
+                        <img src="assets/images/doctor-2.svg" alt="Портрет доктора Ивана Кузнецова" loading="lazy">
+                        <h3>Иван Кузнецов</h3>
+                        <p class="profile__role">Хирург-ортопед</p>
+                        <p>Автор инновационных методик восстановления суставов, член Европейской ассоциации ортопедов.</p>
+                    </article>
+                    <article class="profile">
+                        <img src="assets/images/doctor-3.svg" alt="Портрет доктора Елены Новиковой" loading="lazy">
+                        <h3>Елена Новикова</h3>
+                        <p class="profile__role">Акушер-гинеколог</p>
+                        <p>Ведёт беременность с 2005 года, помогает при сложных репродуктивных случаях.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--light" id="technology">
+            <div class="container technology">
+                <div class="technology__text">
+                    <h2>Инновационные технологии</h2>
+                    <p>Клиника оснащена оборудованием экспертного класса и цифровыми сервисами, которые делают лечение точным и комфортным.</p>
+                    <ul class="technology__list">
+                        <li>Электронная медицинская карта и телемедицина</li>
+                        <li>Роботизированные операционные</li>
+                        <li>Диагностика на базе искусственного интеллекта</li>
+                        <li>Система «умного» мониторинга пациентов</li>
+                    </ul>
+                </div>
+                <div class="technology__stats">
+                    <div class="stat">
+                        <span class="stat__number">98%</span>
+                        <span class="stat__label">пациентов рекомендуют нас</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">10 минут</span>
+                        <span class="stat__label">среднее время ожидания</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">4.9/5</span>
+                        <span class="stat__label">средняя оценка сервиса</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2>Отзывы пациентов</h2>
+                    <p>Реальные истории людей, которым мы помогли вернуть здоровье.</p>
+                </div>
+                <div class="slider" aria-live="polite">
+                    <div class="slider__track">
+                        <article class="testimonial">
+                            <blockquote>
+                                «Внимательные врачи и современный подход. Прошла комплексную диагностику за один день, все подробно объяснили.»
+                            </blockquote>
+                            <p class="testimonial__author">— Мария, 34 года</p>
+                        </article>
+                        <article class="testimonial">
+                            <blockquote>
+                                «Операция прошла успешно, восстановление было быстрым благодаря команде реабилитологов. Спасибо!»
+                            </blockquote>
+                            <p class="testimonial__author">— Алексей, 52 года</p>
+                        </article>
+                        <article class="testimonial">
+                            <blockquote>
+                                «Очень удобно записываться онлайн, врачи всегда на связи. Чувствую заботу и профессионализм.»
+                            </blockquote>
+                            <p class="testimonial__author">— Светлана, 41 год</p>
+                        </article>
+                    </div>
+                    <div class="slider__controls" role="group" aria-label="Навигация по отзывам">
+                        <button class="slider__button" data-direction="prev" aria-label="Предыдущий отзыв">‹</button>
+                        <button class="slider__button" data-direction="next" aria-label="Следующий отзыв">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="appointment">
+            <div class="container appointment">
+                <div class="appointment__text">
+                    <h2>Запишитесь на приём</h2>
+                    <p>Оставьте ваши данные, и мы подберём удобное время посещения в ближайшие 15 минут.</p>
+                    <ul class="appointment__benefits">
+                        <li>Онлайн- и офлайн-консультации</li>
+                        <li>Персональный координатор пациента</li>
+                        <li>Чёткая стоимость до начала лечения</li>
+                    </ul>
+                </div>
+                <form class="form" aria-label="Форма записи" id="appointmentForm" novalidate>
+                    <div class="form__field">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Иван" required>
+                        <span class="form__error" id="nameError" role="alert"></span>
+                    </div>
+                    <div class="form__field">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" pattern="^\+?[0-9 ()-]{10,}$" required>
+                        <span class="form__error" id="phoneError" role="alert"></span>
+                    </div>
+                    <div class="form__field">
+                        <label for="service">Выберите направление</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Выберите услугу</option>
+                            <option value="therapy">Терапия</option>
+                            <option value="gynecology">Гинекология</option>
+                            <option value="dentistry">Стоматология</option>
+                            <option value="rehabilitation">Реабилитация</option>
+                        </select>
+                        <span class="form__error" id="serviceError" role="alert"></span>
+                    </div>
+                    <div class="form__field form__field--full">
+                        <label for="message">Комментарий</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Уточните желаемое время или жалобы"></textarea>
+                    </div>
+                    <button class="button button--primary button--full" type="submit">Отправить заявку</button>
+                    <p class="form__privacy">Отправляя форму, вы соглашаетесь с политикой конфиденциальности.</p>
+                    <p class="form__success" id="formSuccess" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="section section--light" id="contacts">
+            <div class="container contacts">
+                <div class="contacts__info">
+                    <h2>Контакты</h2>
+                    <p>Мы находимся в шаговой доступности от метро «Здоровье». Для вас доступны парковка и комфортная зона ожидания.</p>
+                    <ul class="contacts__list">
+                        <li>
+                            <span class="contacts__label">Адрес:</span>
+                            <span>Москва, ул. Здоровья, 10</span>
+                        </li>
+                        <li>
+                            <span class="contacts__label">Телефон:</span>
+                            <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                        </li>
+                        <li>
+                            <span class="contacts__label">Email:</span>
+                            <a href="mailto:hello@clinic.ru">hello@clinic.ru</a>
+                        </li>
+                        <li>
+                            <span class="contacts__label">Часы работы:</span>
+                            <span>Ежедневно с 08:00 до 22:00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts__map" aria-hidden="true">
+                    <div class="map-placeholder">
+                        <span class="map-placeholder__icon">📍</span>
+                        <p>Здесь может быть интерактивная карта</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__brand">
+                <span class="footer__logo-icon" aria-hidden="true">✚</span>
+                <span>Клиника «Здоровье»</span>
+            </div>
+            <nav class="footer__nav" aria-label="Навигация в подвале">
+                <a href="#services">Услуги</a>
+                <a href="#doctors">Врачи</a>
+                <a href="#appointment">Запись</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <p class="footer__copyright">© 2024 Клиника «Здоровье». Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
